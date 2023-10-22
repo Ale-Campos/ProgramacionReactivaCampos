@@ -14,6 +14,6 @@ import {MatTableModule} from '@angular/material/table';
   ],
    exports: [
     TableComponent
-   ]
+   ],
 })
 export class DashboardModule { }

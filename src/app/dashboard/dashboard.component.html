@@ -1,1 +1,2 @@
-<app-table [dataSource]="dataSource"></app-table>
+<button (click)="setDataSource()">{{filtro? "Mostrar sin filtro":"Mostrar filtrado"}}</button>
+<app-table [dataSource]="(dataSource | async) || []"></app-table>
